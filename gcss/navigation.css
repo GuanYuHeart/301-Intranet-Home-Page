@@ -1,0 +1,58 @@
+@charset "utf-8";
+#navigation 
+	{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 16px;
+	background-color: #296002;
+	position: relative;
+	width: 100%;
+	left: 0%;
+	top: 0%;
+	right: 0%;
+	padding-bottom: 60px;
+	height: auto;
+	}
+#gna
+	{
+	right: 0%;
+	position: absolute;
+	top: 0%;
+	}
+#guan
+	{
+	left: 1%;
+	bottom: 12%;
+	position: absolute;
+	}
+/*#navigation ul
+	{
+	right: 0%;
+	}*/
+#navigation li
+	{
+	list-style:none; /* 将默认的列表符号去掉 */
+	padding:0; /* 将默认的内边距去掉 */
+	margin:0; /* 将默认的外边距去掉 */
+	}
+#navigation li
+	{ 
+	float:left; /* 往左浮动 */
+	}  
+#navigation li a
+	{
+	display:block; /* 将链接设为块级元素 */
+	padding:6px 50px; /* 设置内边距 */
+	background:#296002; /* 设置背景色 */
+	color:#fff; /* 设置文字颜色 */
+	text-decoration:none; /* 去掉下划线 */
+	border-right:1px solid #000; /* 在左侧加上分隔线 */
+	}
+#navigation li a:hover
+	{
+	background:#146C9C; /* 变换背景色 */
+	color:#fff; /* 变换文字颜色 */
+	}
+#navigation li a.last
+	{
+	border-right:0; /* 去掉左侧边框 */
+	}

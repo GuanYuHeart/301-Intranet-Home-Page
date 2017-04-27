@@ -1,0 +1,16 @@
+@charset "utf-8";
+#wenzi {
+	text-align: left;
+	position: absolute;
+	top: 46%;
+	height: auto;
+	width: auto;
+	left: 33%;
+	font-size: 36px;
+	font-weight: 600;
+}
+#wenzi2 {
+	position: absolute;
+	top: 70%;
+	left: 36.5%;
+}
